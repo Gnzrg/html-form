@@ -1,0 +1,28 @@
+body{
+    width: 100%;
+}
+@media (min-width:1400px){
+    body{
+        background-color: aqua;
+    }
+}
+@media(max-width:1200px){
+    body{
+        background-color: bisque;
+    }
+}
+@media (max-width:992px){
+    body{
+        background-color: red;
+    }
+}
+@media (max-width:768px){
+    body{
+        background-color: yellow;
+    }
+}
+@media (max-width:576px){
+    body{
+        background-color: black;
+    }
+}
