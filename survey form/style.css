@@ -1,0 +1,101 @@
+body{
+background-image: url(https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+background-repeat: no-repeat;
+/* object-fit: cover; */
+background-size: cover;
+background-color: aqua;
+}
+body img{
+    mix-blend-mode: darken;
+    /* background-image: linear-gradient(to bottom right, pink, purple); */
+}
+body h2{
+    text-align: center;
+    color: #fff;
+    font-size: 48px;
+    margin: 0;
+}
+body h4{
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+}
+.container{
+    width: 40%;
+    margin: 0 auto;
+    background-color: rgb(157, 80, 161, 0.5);
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.first input{
+    width: 96%;
+/* margin-top: 20px; */
+padding: 5px;
+margin-top: 10px;
+}
+#age :valid
+#age :in-range{
+    border: 1px solid green;
+}
+#age :invalid
+#age :out-of-range{
+    border: 1px solid red;
+}
+.first label{
+    color: #fff;
+    margin-top: 20px;
+    display: block;
+}
+legend{
+    color: #fff;
+    font-size: 24px;
+}
+fieldset{
+    border: 1px solid #ccc;
+    padding-top: 30px;
+}
+.second{
+    padding: 20px;
+}
+.second label{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+    display:inline-block;
+}
+.second p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.second select{
+    width: 98%;
+    margin-top: 15px;
+    padding: 10px;
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
+}
+.checkbox label{
+    text-align: left;
+    display: block;
+}
+.checkbox div{
+    display: flex;
+}
+#comment{
+    width: 88%;
+    padding: 40px;
+    font-size: 18px;
+}
+.footer input{
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+

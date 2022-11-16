@@ -1,0 +1,31 @@
+body{
+    width: 100%;
+}
+@media (min-width:1024px){
+    body{
+        background-color: pink;
+        background-image: url(https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg);
+        background-size: 600px; 
+        background-repeat: no-repeat;
+        background-position: center center;
+
+    }
+}
+@media (max-width:1024px){
+    body{
+        background-color: aqua;
+        background-image: url(https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg);
+        background-size: 600px; 
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+@media (max-width:762px){
+    body{
+        background-color: black;
+    background-image: url(https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg);
+    background-size: 600px; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+}
