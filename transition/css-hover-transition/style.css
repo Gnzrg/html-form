@@ -1,0 +1,23 @@
+#item-1{
+    width: 10%;
+    height: 120px;
+    background-color: greenyellow;
+    border: none;
+}
+.item-2{
+    width: 10%;
+    height: 120px;
+    background-color: red;
+}
+#item-1:focus{
+width: 100%;
+transition-duration: 1s;
+background-color: aquamarine;
+height: 120px;
+outline: none;
+}
+.item-2:hover{
+    width: 100%;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}

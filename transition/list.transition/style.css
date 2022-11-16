@@ -1,0 +1,24 @@
+.container{
+    width: 20%;
+    background-color: aqua;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.container div{
+    border: 1px solid black;
+    transition-property: all;
+    transition-duration: 4s;
+    text-align: left;
+    padding: 20px;
+}
+.container div:hover{
+    /* height: 100px; */
+    background-color: orange;
+    padding: 40px;   
+    text-align: center;
+}
+.container h2:hover{
+    font-size: 36px ;
+    color: purple;
+    transition-duration: 2s;
+}

@@ -1,24 +1,49 @@
-body{
+/* body{
 background-image: url(https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+background-repeat: no-repeat;
+object-fit: cover;
+background-size: cover;
+background-color: aqua;
+ mix-blend-mode: multiply;
+
+} */
+.image{
+    background-image: url(https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
 background-repeat: no-repeat;
 /* object-fit: cover; */
 background-size: cover;
 background-color: aqua;
+ mix-blend-mode: multiply;
+ width: 100%;
+ 
+}
+.image::after{
+    content: '';
+    background-image: linear-gradient(to right, pink , purple);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.2;
 }
 body img{
-    mix-blend-mode: darken;
+   
     /* background-image: linear-gradient(to bottom right, pink, purple); */
+}
+img{
+    /* mix-blend-mode: darken; */
 }
 body h2{
     text-align: center;
     color: #fff;
-    font-size: 48px;
+    font-size: 32px;
     margin: 0;
 }
 body h4{
     text-align: center;
     color: #fff;
-    font-size: 24px;
+    font-size: 16px;
     margin: 0;
 }
 .container{
