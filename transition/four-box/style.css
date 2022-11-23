@@ -1,0 +1,76 @@
+.container{
+    border: 1px solid black;
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.front{
+
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+    position:absolute ;
+ gap: 3px;
+ display: flex;
+ flex-wrap: wrap;
+
+}
+.container:hover .item-1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: purple;
+    transition: 1.5s all ease-in-out;
+}
+.container:hover .item-2{
+    position: relative;
+    top: 0;
+    right: 0;
+    background-color: purple;
+    transition: 1.5s all ease-in-out;
+}
+.container:hover .item-3{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-color: purple;
+    transition: 1.5s all ease-in-out;
+}
+.container:hover .item-4{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    background-color: purple;
+    transition: 1.5s all ease-in-out;
+}
+.front div{
+    width: 49%;
+    height: 49%;
+    background-color: red;
+}
+.end{
+    width: 200px;
+    height: 200px;
+    z-index: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+.end div{
+   
+    width: 49%;
+    height: 49%;
+    /* flex-wrap: wrap; */
+    background-color: beige;
+    border: 1px solid beige;
+}
+.container:hover .end>div{
+    background-color: yellow;
+    z-index: 5;
+  
+}
